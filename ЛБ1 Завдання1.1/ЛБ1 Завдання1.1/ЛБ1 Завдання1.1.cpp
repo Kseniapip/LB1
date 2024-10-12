@@ -13,10 +13,10 @@ using namespace std;
 int main() {
 
     int length, width;
-    cout << "Rectangle length: "; // Довжина прямокутника
-    cin >> length; // довжина
-    cout << "Rectangle width: "; // Ширина прямокутника
-    cin >> width; // ширина
+    cout << "Rectangle length: "; 
+    cin >> length; 
+    cout << "Rectangle width: "; 
+    cin >> width; 
 
 
     int area = length * width; 
@@ -33,12 +33,12 @@ int main() {
     float division = area_float / perimeter_float;
 
 
-    cout << "Area: " << area << endl; // Площа
+    cout << "Area: " << area << endl; 
     cout << "Perimeter: " << perimeter << endl; 
     cout << "Sum: " << sum << endl; 
-    cout << "Difference: " << difference << endl; // Різниця
-    cout << "Product: " << product << endl; // Добуток
-    cout << "Division: " << division << endl; // Частка
+    cout << "Difference: " << difference << endl; 
+    cout << "Product: " << product << endl; 
+    cout << "Division: " << division << endl; 
 
    
     cout << "Address length: " << &length << endl;
