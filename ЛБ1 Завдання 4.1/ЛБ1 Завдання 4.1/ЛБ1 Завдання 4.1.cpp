@@ -15,7 +15,7 @@ int main() {
 
     cout << "Enter your age: ";
     cin >> age;
-    cout << "Enter your desired salary: "; // бажана посада
+    cout << "Enter your desired salary: "; 
     cin >> salary;
 
     if (age > 20 && salary > 400 && salary < 1000) {
