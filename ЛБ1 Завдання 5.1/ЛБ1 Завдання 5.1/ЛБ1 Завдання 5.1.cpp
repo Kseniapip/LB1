@@ -18,7 +18,7 @@ int main() {
         if (grade >= 90) {
             cout << "Excellent" << endl; 
         }
-        else if (grade >= 70 && grade >= 80) {
+        else if (grade >= 74 && grade <= 89) {
             cout << "Good" << endl;
         }
         else if (grade >= 60) {
