@@ -1,20 +1,44 @@
-﻿// ЛБ1 Завдання 2.1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+  
+    int number;
+    cout << "Enter an integer: ";
+    cin >> number;
+
+    int remainder = number % 7;
+    cout << "The remainder when " << number << " is divided by 7 is: " << remainder << endl;
+
+   
+    int num1, num2;
+    cout << "Enter two integers: " << endl;
+    cout << "First number: ";
+    cin >> num1;
+    cout << "Second number: ";
+    cin >> num2;
+
+    if (num2 != 0) {
+        if (num1 % num2 == 0) {
+            cout << num1 << " is divisible by " << num2 << " without a remainder." << endl;
+        } else {
+            cout << num1 << " is not divisible by " << num2 << " without a remainder." << endl;
+        }
+    } else {
+        cout << "Division by zero is not allowed." << endl;
+    }
+
+    if (num1 % 2 == 0) {
+        cout << num1 << " is even." << endl;
+    } else {
+        cout << num1 << " is odd." << endl;
+    }
+
+    if (num2 % 2 == 0) {
+        cout << num2 << " is even." << endl;
+    } else {
+        cout << num2 << " is odd." << endl;
+    }
+
+    return 0;
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
