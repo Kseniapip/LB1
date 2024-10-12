@@ -19,28 +19,28 @@ int main() {
     cin >> width; // ширина
 
 
-    int area = length * width; // площа
-    int perimeter = 2 * (length + width); //периметр
+    int area = length * width; 
+    int perimeter = 2 * (length + width); 
 
 
     float area_float = area;
     float perimeter_float = perimeter;
 
-    // Операції з дробовими числами
+    
     float sum = area_float + perimeter_float;
     float difference = area_float - perimeter_float;
     float product = area_float * perimeter_float;
     float division = area_float / perimeter_float;
 
-    // результати
+
     cout << "Area: " << area << endl; // Площа
-    cout << "Perimeter: " << perimeter << endl; // Периметр
-    cout << "Sum: " << sum << endl; // Сума
+    cout << "Perimeter: " << perimeter << endl; 
+    cout << "Sum: " << sum << endl; 
     cout << "Difference: " << difference << endl; // Різниця
     cout << "Product: " << product << endl; // Добуток
     cout << "Division: " << division << endl; // Частка
 
-    // адрес змінних
+   
     cout << "Address length: " << &length << endl;
     cout << "Address width: " << &width << endl;
     cout << "Address area: " << &area << endl;
