@@ -10,7 +10,7 @@ using namespace std;
 int main() {
     int age;
     double salary;
-    string firstName, lastName, desiredPosition; //  ім'я, прізвище, бажана посада
+    string firstName, lastName, desiredPosition; 
 
 
     cout << "Enter your age: ";
@@ -18,11 +18,10 @@ int main() {
     cout << "Enter your desired salary: "; // бажана посада
     cin >> salary;
 
-    // Перевірка умов для розгляду позиції
     if (age > 20 && salary > 400 && salary < 1000) {
         cout << "We will consider your position." << endl;
 
-        // Запитуємо ім'я, прізвище та бажану посаду
+   
         cout << "Enter your first name: ";
         cin >> firstName;
         cout << "Enter your last name: ";
